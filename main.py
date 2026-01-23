@@ -7,7 +7,8 @@ from FaceManager import FaceManager
 
 # download model
 #model_path = hf_hub_download(repo_id="arnabdhar/YOLOv8-Face-Detection", filename="model.pt")
-model_path = "model.pt"
+#model_path = "model.pt"
+model_path = "model.onnx"
 
 # load model
 model = YOLO(model_path)
